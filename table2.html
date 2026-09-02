@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      table th,
+      table td {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+
+      thead {
+        background-color: lightblue;
+      }
+
+      tfoot {
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Employee Attendace Report - July 2026</h1>
+    <table cellpadding="10">
+      <caption></caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Department</th>
+          <th rowspan="2">Employee</th>
+          <th colspan="5">Week Days</th>
+          <th rowspan="2">Present</th>
+          <th rowspan="2">Absent</th>
+        </tr>
+
+        <tr>
+          <th colspan="1">Mon</th>
+          <th colspan="1">Tue</th>
+          <th colspan="1">Wed</th>
+          <th colspan="1">Thu</th>
+          <th colspan="1">Fri</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2">IT</td>
+          <td>Mansi</td>
+          <td>P</td>
+          <td>P</td>
+          <td>P</td>
+          <td>A</td>
+          <td>P</td>
+          <td>4</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Rahul</td>
+          <td>P</td>
+          <td>P</td>
+          <td>P</td>
+          <td>P</td>
+          <td>P</td>
+          <td>5</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td rowspan="2">HR</td>
+          <td>Sneha</td>
+          <td>P</td>
+          <td>A</td>
+          <td>P</td>
+          <td>P</td>
+          <td>P</td>
+          <td>4</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Riya</td>
+          <td>P</td>
+          <td>P</td>
+          <td>A</td>
+          <td>P</td>
+          <td>A</td>
+          <td>3</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="7" style="text-align: right">Total Employees</th>
+          <th colspan="2">4</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

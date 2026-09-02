@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      table th,
+      table td {
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      thead {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <table cellpadding="20">
+      <caption>
+        <h1 style="text-align: center">Complex HTML Table</h1>
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="6">Student Performance Report</th>
+        </tr>
+
+        <tr>
+          <th rowspan="2">Roll No</th>
+          <th rowspan="2">Name</th>
+          <th colspan="3">Marks</th>
+          <th rowspan="2">Grade</th>
+        </tr>
+
+        <tr>
+          <th>HTML</th>
+          <th>CSS</th>
+          <th>JavaScript</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Amit</td>
+          <td>85</td>
+          <td>88</td>
+          <td>90</td>
+          <td>A</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2" colspan="2">Project Team</td>
+          <td>95</td>
+          <td>91</td>
+          <td>96</td>
+          <td rowspan="2">A+</td>
+        </tr>
+
+        <tr>
+          <td colspan="2">Special Assignment</td>
+          <td>100</td>
+        </tr>
+
+        <tr>
+          <td>102</td>
+          <td>Rahul</td>
+          <td colspan="2" rowspan="2">Absent</td>
+          <td>76</td>
+          <td>B</td>
+        </tr>
+
+        <tr>
+          <td>104</td>
+          <td>Priya</td>
+          <td>Medical Leave</td>
+          <td>C</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">Total Students</td>
+          <td colspan="3">4</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

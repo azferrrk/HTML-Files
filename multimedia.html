@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia Profile</title>
+    <style>
+      body {
+        background-color: wheat;
+      }
+
+      .container {
+        background-color: whitesmoke;
+      }
+
+      h1 {
+        color: white;
+        background-color: blue;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+      }
+
+      /* HEADING */
+      .heading {
+        text-align: center;
+      }
+
+      .heading img {
+        border: solid;
+        border-color: chocolate;
+        border-radius: 50%;
+      }
+
+      /* ABOUT */
+      .about {
+        text-align: center;
+      }
+
+      /* VIDEO */
+      video,
+      embed,
+      iframe {
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Multimedia Profile</h1>
+        <img src="Untitled.png" alt="this is a profile picture." />
+      </div>
+
+      <div class="about">
+        <h1>About me (Audio Intro)</h1>
+        <audio controls loop>
+          <source
+            src="Multimedia/1 minute relaxing video with nature - A minute with natureFlowing River.mp3"
+            type="audio/mp3"
+          />
+        </audio>
+      </div>
+
+      <div class="Video">
+        <h1>Video Introduction</h1>
+        <video width="900" height="500" controls autoplay loop muted>
+          <source
+            src="Multimedia/Screencast From 2026-08-19 11-26-21.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+
+      <div class="PDF">
+        <h1>PDF Introduction in HTML</h1>
+        <embed
+          src="HTML NOTES.pdf"
+          type="application/pdf"
+          width="600"
+          height="500"
+        />
+      </div>
+
+      <div class="Map">
+        <h1>Map Introduction in HTML</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.7883103868!2d72.8201248368284!3d19.14168989603107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1787120316548!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

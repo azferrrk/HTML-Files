@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        text-align: center;
+      }
+
+      table,
+      table th,
+      table td {
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      thead {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Nested Table</h1>
+    </header>
+    <main>
+      <section>
+        <table cellpadding="20">
+          <thead>
+            <tr>
+              <th>Student Name</th>
+              <th>Subject</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rahul</td>
+              <td>
+                <table cellpadding="20">
+                  <thead>
+                    <tr>
+                      <th>Subject</th>
+                      <th>Marks</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Maths</td>
+                      <td>85</td>
+                    </tr>
+                    <tr>
+                      <td>Science</td>
+                      <td>90</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
