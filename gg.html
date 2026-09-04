@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table, th, td{
+        padding: 5;
+        border-collapse: collapse;
+        text-align: center;
+      }
+
+      .tb1 {
+        background-color: red;
+        color: white;
+      }
+
+      thead {
+        background-color: brown;
+        color: white;
+      }
+
+      a{
+        border: solid;
+        border: 2;
+        border-color: red;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Restaurant Menu</h1>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Dishes</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Starters</td>
+        <td>
+          <table border="2" cellpadding="10">
+            <thead class="tb1">
+              <tr>
+                <th>Image</th>
+                <th>Dish</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>
+                <img src="Multimedia/google.jpg" width="100px" height="100px" />
+              </td>
+              <td>Spring rolls</td>
+              <td>Rs. 150</td>
+            </tr>
+            <tr>
+              <td>
+                <img src="Multimedia/images.jpg" width="100px" height="100px" />
+              </td>
+              <td>Paneer Tikka</td>
+              <td>Rs. 200</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>Main Course</td>
+        <td>
+          <table border="2" cellpadding="10">
+            <thead class="tb1">
+              <tr>
+                <th>Image</th>
+                <th>Dish</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tr>
+              <td><img src="Multimedia/skillet.jpg" width="100px" height="100px"></td>
+              <td>Veg Biryani</td>
+              <td>Rs. 220</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <a href="https://google.com">Order Now</a>
+  </body>
+</html>
