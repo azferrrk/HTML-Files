@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        text-align: center;
+      }
+
+      main {
+        text-align: center;
+      }
+
+      section {
+        display: inline-block;
+        margin: 0 auto;
+      }
+
+      h5 {
+        background-color: wheat;
+        margin: 0;
+        text-align: left;
+      }
+
+      img {
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Lazy Loading Demo</h1>
+    </header>
+    <main>
+      <section>
+        <h5>Image 1- loads immediately(no loading attribute)</h5>
+        <img
+          src="https://picsum.photos/id/28/4928/3264"
+          alt="this is an image which loads immediately."
+          width="800"
+          height="500"
+        />
+
+        <h5>Image 2- loads immediately(no loading attribute)</h5>
+        <img
+          src="https://picsum.photos/id/27/3264/1836"
+          alt="this is an image which loads immediately."
+          width="800"
+          height="500"
+        />
+
+        <h5>Image 3- loading="lazy"</h5>
+        <img
+          src="https://picsum.photos/id/26/4209/2769"
+          alt="this is an image which doesn't loads immediately."
+          width="800"
+          height="500"
+          loading="lazy"
+        />
+
+        <h5>Image 4- loading="lazy"</h5>
+        <img
+          src="https://picsum.photos/id/21/3008/2008"
+          alt="this is an image which doesn't loads immediately."
+          width="800"
+          height="500"
+          loading="lazy"
+        />
+
+        <h5>Image 5- loading="lazy"</h5>
+        <img
+          src="https://picsum.photos/id/10/2500/1667"
+          alt="this is an image which doesn't loads immediately."
+          width="800"
+          height="500"
+          loading="lazy"
+        />
+
+        <h5>Image 6- loading="lazy"</h5>
+        <img
+          src="https://picsum.photos/id/11/2500/1667"
+          alt="this is an image which doesn't loads immediately."
+          width="800"
+          height="500"
+          loading="lazy"
+        />
+
+        <h5>Image 7- loading="lazy"</h5>
+        <img
+          src="https://picsum.photos/id/13/2500/1667"
+          alt="this is an image which doesn't loads immediately."
+          width="800"
+          height="500"
+          loading="lazy"
+        />
+
+        <h5>Image 8- loading="lazy"</h5>
+        <img
+          src="https://picsum.photos/id/25/5000/3333"
+          alt="this is an image which doesn't loads immediately."
+          width="800"
+          height="500"
+          loading="lazy"
+        />
+      </section>
+    </main>
+  </body>
+</html>
